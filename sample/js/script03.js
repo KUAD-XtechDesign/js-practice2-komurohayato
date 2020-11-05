@@ -29,5 +29,7 @@ $(function(){
         $("#content").text(hako);
     })
 
-  
+    $("#button05").on("click",function(){
+        students = students.reverse()
+    })
 })
